@@ -1,24 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/8f5c9daf85.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Trippie Tshirts</title>
+    <title>Trippie T-Shirts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/indexstyle.css">
 </head>
 
 <body>
-    <div class="all">
+    <div class="all2">
         <nav class="nab">
             <a href="./index.html" class="logo">
                 <img class="logo1" src="./img/TS.jpg" alt="Logo">
             </a><br><br><br><br><br><br>
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">CATEGORIAS</a></li>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./CATEGORIAS.html">CATEGORIAS</a></li>
                 <li><a href="#">TODOS LOS PRODUCTOS</a></li>
                 <li><a href="#">NOSOTROS</a></li>
                 <li><a href="#">CONTACTO<a></li>
@@ -27,50 +29,95 @@
                 <li><a href="#">LINK RELLENO2<a></li>
                 <li><a href="#">LINK RELLENO3<a></li>
                 <li><a href="#">LINK RELLENO4<a></li>
-
-
+    
+    
             </ul>
         </nav>
-        <header class="header">
-            <h1>No dejes para mañana lo que puedes comprar hoy!!</h1>
-            <p>Aprovecha la variedad de remeras que puedes encontrar aqui partiendo desde remeras casuales, chombas,
-                remeas deportivas, y tambien musculosas, y luego comentanos que te parecieron</p>
-        </header>
-        <section class="section">
-            <p>REMERAS</p>
-            <section class="sectionjr">
-
-                <img class="imgcat" src="./img/RBB.jpg" alt="REMERA Baabaas">
-                <img class="imgcat" src="./img/remerahippie.jpg" alt="REMERA HIPPIE">
-                <img class="imgcat" src="./img/RBG4.png" alt="REMERA BLANCA">
-                <img class="imgcat" src="./img/rvg4.png" alt="REMERA VERDE">
-            </section>
-            <p>CHOMBAS</p>
-            <section class="sectionjr">
-
-                <img class="imgcat" src="./img/panda.jpg" alt="chomba panda">
-                <img class="imgcat" src="./img/CHM.png" alt="Chomba Malibu">
-                <img class="imgcat" src="./img/CHSL.jpg" alt="Chomba Salmon">
-                <img class="imgcat" src="./img/Chomba negra.png" alt="Chomba negra">
-            </section>
-            <p>DEPORTIVAS</p>
-            <section class="sectionjr">
-
-                <img class="imgcat" src="./img/SLIMFIT.png" alt="Slim Fit">
-                <img class="imgcat" src="./img/remera termica.png" alt="Remera Termica">
-                <img class="imgcat" src="img/vokita.png" alt="Boca">
-                <img class="imgcat" src="./img/river.png" alt="River">
-            </section>
-            <p>MUSCULOSAS</p>
-            <section class="sectionjr">
-
-                <img class="imgcat" src="./img/Wtank.jpg" alt="Musculosa White Tank">
-                <img class="imgcat" src="./img/blacktank.png" alt="Musculosa Black Tank">
-                <img class="imgcat" src="./img/marinotank.png" alt="Musculosa Marino Tank">
-                <img class="imgcat" src="./img/Musculosa baket.png" alt="Musculosa Basket">
-            </section>
+        <section class="h1">
+            <h2 class="suelto">PRODUCTOS MAS VENDIDOS
+            </h2>
         </section>
-
+       
+        <table class="table table-info blk222">
+            <thead>
+                <tr class="ti333">
+                    <th scope="col">#</th>
+                    <th scope="col">Productos mas vendidos</th>
+                    <th scope="col">Talles Disponibles</th>
+                    <th scope="col">Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="ti333">
+                    <th scope="row">1</th>
+                    <td>Polo Oliva 1971</td>
+                    <td>$4599</td>
+                    <td>M-L-XL</td>
+                </tr>
+                <tr class="ti333">
+                    <th scope="row">2</th>
+                    <td>Chomba Panda</td>
+                    <td>$2799</td>
+                    <td>S-M-L</td>
+                </tr>
+                <tr class="ti333">
+                    <th scope="row">3</th>
+                    <td>White Tank(M) </td>
+                    <td>$1499</td>
+                    <td>S-M-L-XL</td>
+                </tr>
+                <tr class="ti333">
+                    <th scope="row">4</th>
+                    <td>Slim Fit(M)</td>
+                    <td>$3749</td>
+                    <td>S-M</td>
+                </tr>
+                <tr class="ti333">
+                    <th scope="row">5</th>
+                        <td>Over Washed Basic(M)</td>
+                        <td>$3999</td>
+                        <td>M-L</td>
+    
+                
+    
+            </tbody>
+        </table>
+    
+    
+        <div id="carouselExampleIndicators divh" class="carousel slide tafu" data-bs-ride="true">
+            <div class="carousel-indicators ">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner carti">
+                <div class="carousel-item active">
+                    <img src="https://equus.vtexassets.com/arquivos/ids/182754-1200-auto?v=637041813220230000&width=1200&height=auto&aspect=true"
+                        class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item carti">
+                    <img src="https://equus.vtexassets.com/arquivos/ids/206305-1600-auto?v=637516948744970000&width=1600&height=auto&aspect=true"
+                        class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item carti">
+                    <img src="https://equus.vtexassets.com/arquivos/ids/187172-1600-auto?v=637079144233570000&width=1600&height=auto&aspect=true"
+                        class="d-block w-80" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <footer class="footer">
             <ul>
                 <i class="fa-brands fa-facebook"></i>
@@ -88,7 +135,12 @@
         </footer>
 
     </div>
+    
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

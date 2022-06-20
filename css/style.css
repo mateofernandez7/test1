@@ -146,7 +146,6 @@ body {
 
 .footer {
     max-width: 1900px;
-    /* width: 100%; */
     margin: 60px;
     background-color: rgb(89, 0, 255);
     border: solid 8px yellow;
@@ -169,7 +168,7 @@ body {
 
 .footer li {
     list-style: none;
-    /* margin: 20px;    */
+   
 }
 .footer li:hover{
     background-color:rgb(141, 224, 216);
