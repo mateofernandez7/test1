@@ -42,6 +42,10 @@ body{
     height: 80px;
     text-align: center;
 }
+.nab li:hover{
+    transform: skewY(20deg);
+    transition: 2s;
+}
 
 .nab li:hover {
     background-color: rgb(255, 255, 255);
@@ -55,7 +59,10 @@ body{
     font-weight: bolder;
     text-align: center;
     height: 50px;
-    /* text-align: center; */
+    animation-name: animacion;
+    animation-duration:9s;
+    animation-iteration-count: infinite;
+    
 }
 
 .seccion1 {
@@ -117,21 +124,6 @@ body{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer {
     max-width: 1900px;
     margin-left: 290px;
@@ -176,4 +168,25 @@ body{
 }
 .footer i {
     font-size: 30px;
+}
+@keyframes animacion {
+    0% {background-color: aqua;}
+    3%{background-color: blueviolet;
+    color: blue;}
+    9%{background-color: crimson;
+    }16% {background-color: green;}
+     21% {background-color: yellow;}
+    28%{background-color: rgb(255, 0, 128);}
+    35%{background-color: red;}
+    40% {background-color: white;}
+    50%{ background-color: olivedrab;}
+    60%{background-color: orchid;}
+    70%{background-color: lawngreen;}
+    80%{background-color: fuchsia;}
+    90%{background-color: springgreen;}
+    100%{background-color: tomato;
+    color: yellow;}
+
+   
+     
 }

@@ -9,7 +9,8 @@ body {
     background-size: cover;
 
 }
-.all{
+
+.all {
     display: grid;
     grid-template-columns: 0.4fr 3fr;
     grid-template-areas:
@@ -17,7 +18,7 @@ body {
         "nab section"
         "nab section"
         "nab footer"
-        
+
 
 }
 
@@ -27,7 +28,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     grid-area: nab;
-   
+
 }
 
 .nab img {
@@ -49,16 +50,21 @@ body {
 
 .nab ul a {
     text-decoration: none;
-    
+
     font-weight: bolder;
     color: rgb(229, 255, 0);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.nab li{
-    
+
+.nab li {
+
     padding: 30px;
     height: 80px;
     text-align: center;
+}
+.nab li:hover{
+    transform: skewY(20deg);
+    transition: 2s;
 }
 
 .nab li:hover {
@@ -79,6 +85,7 @@ body {
     grid-area: header;
 
 }
+
 
 .header h1 {
     font-weight: bolder;
@@ -138,13 +145,21 @@ body {
 .sectionjr img {
     width: 300px;
     height: 300px;
-    border: solid 5px yellow;
     margin: 8px;
     border-radius: 38px;
 
 }
-.maintlp{
-    display:flex;
+
+.sectionjr img:hover {
+    transform: scale(2);
+    transition: 4s;
+    padding: 20px;
+   
+    
+}
+
+.maintlp {
+    display: flex;
 }
 
 .footer {
@@ -161,34 +176,36 @@ body {
     padding: 35px;
     display: flex;
     flex-wrap: wrap;
-    height:160px;
+    height: 160px;
     align-content: center;
     justify-content: center;
-    
+
 
 
 }
 
 .footer li {
     list-style: none;
-   
+
 }
-.footer li:hover{
-    background-color:rgb(141, 224, 216);
+
+.footer li:hover {
+    background-color: rgb(141, 224, 216);
     border: solid 4px yellow;
-    text-decoration:line-through;
+    text-decoration: line-through;
 
 }
 
 .footer a {
     text-decoration: none;
-    padding-left:10px;
-    padding-right:10px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: rgb(0, 0, 0);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
     font-size: 22px;
 }
+
 .footer i {
     font-size: 30px;
 }
